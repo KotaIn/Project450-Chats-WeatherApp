@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/connections_nav_dynamic"
+    app:startDestination="@id/nav_landing">
+
+    <fragment
+        android:id="@+id/nav_landing"
+        android:name="edu.uw.tcss450.inouek.test450.Connections.ProfileFragment"
+        android:label="fragment_profile_list"
+        tools:layout="@layout/fragment_profile_list" >
+        <argument
+            android:name="credentials"
+            app:argType="edu.uw.tcss450.inouek.test450.model.Credentials" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_received"
+        android:name="edu.uw.tcss450.inouek.test450.Connections.RequestReceivedFragment"
+        android:label="fragment_request_received"
+        tools:layout="@layout/fragment_request_received" >
+        <argument
+            android:name="credentials"
+            app:argType="edu.uw.tcss450.inouek.test450.model.Credentials" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_sent"
+        android:name="edu.uw.tcss450.inouek.test450.Connections.RequestSentFragment"
+        android:label="fragment_request_sent"
+        tools:layout="@layout/fragment_request_sent" >
+        <argument
+            android:name="credentials"
+            app:argType="edu.uw.tcss450.inouek.test450.model.Credentials" />
+    </fragment><action android:id="@+id/action_global_nav_landing" app:destination="@id/nav_landing"/><action android:id="@+id/action_global_nav_received" app:destination="@id/nav_received"/><action android:id="@+id/action_global_nav_sent" app:destination="@id/nav_sent"/>
+</navigation>

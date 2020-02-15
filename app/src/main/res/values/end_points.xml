@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="ep_base_url">group2-project450-backend.herokuapp.com</string>
+
+    <string name="ep_account">account</string>
+    <string name="ep_login">login</string>
+    <string name="ep_messaging_base">messaging</string>
+    <string name="ep_messaging_send">send</string>
+    <string name="ep_messaging_getall">getAll</string>
+    <string name="ep_messaging_chatlist">chatlist</string>
+    <string name="ep_messaging_chat">chat</string>
+    <string name="ep_pushy">pushy</string>
+    <string name="ep_register">register</string>
+    <string name="ep_resend">resend</string>
+    <string name="ep_contacts">contacts</string>
+    <string name="ep_contacts_find_new">find_new</string>
+    <string name="ep_contacts_base">base</string>
+    <string name="ep_contacts_send">send</string>
+    <string name="ep_contacts_sent">sent</string>
+    <string name="ep_contacts_received">received</string>
+    <string name="ep_contacts_profile">profile</string>
+    <string name="ep_contacts_delete">delete</string>
+    <string name="ep_contacts_accept">accept</string>
+    <string name="ep_contacts_find_current">find_current</string>
+    <string name="ep_weather">weather</string>
+    <string name="ep_weather_locations">locations</string>
+    <string name="ep_weather_locations_add">add</string>
+    <string name="ep_weatehr_locations_delete">delete</string>
+    <string name="ep_weather_10">5day</string>
+    <string name="ep_weather_24">24hr</string>
+</resources>
